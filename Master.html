@@ -4,8 +4,18 @@
 <html>
     <head>
         <title>Master</title>
+
+        <script>
+            function ShowMessage(comment) {
+                alert(comment);
+            }
+        </script>
     </head>
     <body>
-        <h1>This page is Master Page</h1>
+        <h1>This page is A Page</h1>
+        <script>
+            var comment = "You clicked A site button"
+        </script>
+        <button id="button1" onclick="ShowMessage(comment)">Click here!</button>
     </body>
 </html>
