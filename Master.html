@@ -4,10 +4,21 @@
 <html>
     <head>
         <title>Master</title>
+
+        <script>
+            function ShowMessage(comment) {
+                alert(comment);
+            }
+        </script>
     </head>
     <body>
-        <h1>This page is B Page</h1>
 
+        <h1>This page is Merge Page</h1>
+
+        <script>
+            var comment = "You clicked A site button"
+        </script>
         <button onclick="window.alert(5 + 6)">click b Button</button>
+        <button id="button1" onclick="ShowMessage(comment)">Click here!</button>
     </body>
 </html>
