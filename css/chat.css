@@ -218,65 +218,65 @@
     border: 1px solid white;
 }
 
-.chat:nth-child(2) .img--container img{
+.chat:nth-child(2) .img--container .friend__ch{
     position: absolute;
     width: 40px;
 }
 
-.chat:nth-child(2) .img--container img:first-child{
+.chat:nth-child(2) .img--container .friend__ch:first-child{
     left: 0;
     top: 0;
 }
 
-.chat:nth-child(2) .img--container img:last-child{
+.chat:nth-child(2) .img--container .friend__ch:last-child{
     left: 20px;
     bottom: 0;
 }
 
-.chat:nth-child(3) .img--container img{
+.chat:nth-child(3) .img--container .friend__ch{
     position: absolute;
     width: 32px;
 }
 
-.chat:nth-child(3) .img--container img:first-child{
+.chat:nth-child(3) .img--container .friend__ch:first-child{
     left: 14px;
     top: 0;
     z-index: 2;
 }
 
-.chat:nth-child(3) .img--container img:nth-child(2){
+.chat:nth-child(3) .img--container .friend__ch:nth-child(2){
     left: 0;
     bottom: 0;
 }
 
-.chat:nth-child(3) .img--container img:last-child{
+.chat:nth-child(3) .img--container .friend__ch:last-child{
     left: 28px;
     bottom: 0;
     z-index: 1;
 }
 
 
-.chat:last-child .img--container img{
+.chat:last-child .img--container .friend__ch{
     position: absolute;
     width: 30px;
 }
 
-.chat:last-child .img--container img:first-child{
+.chat:last-child .img--container .friend__ch:first-child{
     left: 0;
     top: 0;
 }
 
-.chat:last-child .img--container img:nth-child(2){
+.chat:last-child .img--container .friend__ch:nth-child(2){
     left: 30px;
     top: 0px;
 }
 
-.chat:last-child .img--container img:nth-child(3){
+.chat:last-child .img--container .friend__ch:nth-child(3){
     left: 0;
     bottom: 0;
 }
 
-.chat:last-child .img--container img:last-child{
+.chat:last-child .img--container .friend__ch:last-child{
     left: 30px;
     bottom: 0;
 }
